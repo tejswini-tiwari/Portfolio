@@ -529,6 +529,69 @@ a {
     border-bottom: none;
 }
 
+.cert-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.cert-list a:hover {
+    color: var(--primary);
+}
+
+.timeline-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary);
+    color: white;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.timeline-link:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.leadership-card {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    transition: all 0.3s;
+}
+
+.leadership-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary);
+}
+
+.leadership-icon {
+    font-size: 2rem;
+}
+
+.leadership-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.leadership-content p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
 .achievements-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
