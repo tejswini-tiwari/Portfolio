@@ -187,6 +187,38 @@
         <section id="projects" class="section">
             <div class="section-content">
                 <h2 class="section-title">Projects</h2>
+
+                <div class="featured-project">
+                    <div class="featured-project-header">
+                        <div class="featured-project-info">
+                            <h3 class="featured-project-name">Store Intellis</h3>
+                            <a href="https://github.com/tejswini-tiwari/store-intelligence" target="_blank" class="project-link">
+                                <svg height="24" width="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View on GitHub
+                            </a>
+                        </div>
+                        <div class="featured-project-tech">
+                            <span>Python</span>
+                            <span>YOLOv8</span>
+                            <span>ByteTrack</span>
+                            <span>Redis Pub/Sub</span>
+                            <span>PostgreSQL</span>
+                            <span>FastAPI</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                    <p class="featured-project-description">Built an end-to-end retail analytics system that processes CCTV footage to measure offline store conversion rates and customer behavior.</p>
+                    <ul class="featured-project-details">
+                        <li>Developed a computer vision pipeline using YOLOv8 and ByteTrack for real-time visitor detection, tracking, and movement analysis across multiple store zones.</li>
+                        <li>Implemented custom Re-Identification (Re-ID) logic, staff filtering, and session management to generate structured behavioral events including ENTRY, EXIT, ZONE_DWELL, and BILLING_QUEUE_JOIN.</li>
+                        <li>Designed and deployed a FastAPI-based analytics engine with Redis pub/sub and PostgreSQL support for real-time event ingestion and processing.</li>
+                        <li>Created live dashboards providing conversion funnels, zone heatmaps, queue analytics, anomaly detection, and store-level insights.</li>
+                        <li>Containerized the complete multi-store architecture using Docker Compose and achieved 70%+ automated test coverage with Pytest.</li>
+                    </ul>
+                </div>
+
                 <div class="projects-grid">
                     <div class="project-card" data-aos="flip-left">
                         <div class="project-header">
@@ -266,42 +298,46 @@
                 <h2 class="section-title">Skills</h2>
                 <div class="skills-container">
                     <div class="skill-category">
-                        <h3 class="skill-category-title">Languages</h3>
+                        <h3 class="skill-category-title">Programming Languages</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">C++</span>
                             <span class="skill-tag">Python</span>
                             <span class="skill-tag">JavaScript</span>
                             <span class="skill-tag">Java</span>
+                            <span class="skill-tag">SQL</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3 class="skill-category-title">ML & Data</h3>
+                        <h3 class="skill-category-title">ML/AI</h3>
                         <div class="skill-tags">
-                            <span class="skill-tag">scikit-learn</span>
-                            <span class="skill-tag">Pandas</span>
-                            <span class="skill-tag">Seaborn</span>
-                            <span class="skill-tag">Scipy</span>
-                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">Scikit-Learn</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">YOLOv8</span>
+                            <span class="skill-tag">ByteTrack</span>
                             <span class="skill-tag">RAG</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3 class="skill-category-title">Tools & Frameworks</h3>
+                        <h3 class="skill-category-title">Backend</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">PostgreSQL</span>
                             <span class="skill-tag">Streamlit</span>
                             <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag">MySQL</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3 class="skill-category-title">Cloud & AI</h3>
+                        <h3 class="skill-category-title">Tools</h3>
                         <div class="skill-tags">
-                            <span class="skill-tag">AWS AI-ML</span>
-                            <span class="skill-tag">Oracle Cloud</span>
-                            <span class="skill-tag">LLMs</span>
-                            <span class="skill-tag">Vector Search</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Google Colab</span>
+                            <span class="skill-tag">Jupyter Notebook</span>
                         </div>
                     </div>
                 </div>
